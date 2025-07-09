@@ -74,8 +74,8 @@ export default function ProductsPage() {
                     <option className='bg-[#FFFBDE] text-[#1E293B]' value="default">Sort by</option>
                     <option className='bg-[#FFFBDE] text-[#1E293B]' value="price-asc">Price: Low to High</option>
                     <option className='bg-[#FFFBDE] text-[#1E293B]' value="price-desc">Price: High to Low</option>
-                    <option className='bg-[#FFFBDE] text-[#1E293B]' value="az">Name: A–Z</option>
-                    <option className='bg-[#FFFBDE] text-[#1E293B]' value="za">Name: Z–A</option>
+                    <option className='bg-[#FFFBDE] text-[#1E293B]' value="az">Name: A-Z</option>
+                    <option className='bg-[#FFFBDE] text-[#1E293B]' value="za">Name: Z-A</option>
                     </select>
             </div>
 

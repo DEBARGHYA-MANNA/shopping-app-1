@@ -11,7 +11,7 @@ export default function CartItem({ item, onIncrease, onDecrease, onRemove }) {
                 className="w-24 h-24 object-contain"
             />
 
-            <div className="flex space-between w-full">
+            <div className="flex-1">
                 <h2 className="text-[#1E293B] font-semibold text-lg line-clamp-2 mb-1">{item.title}</h2>
                 <p className="text-[#1E293B]">₹{item.price.toFixed(2)}</p>
             </div>
